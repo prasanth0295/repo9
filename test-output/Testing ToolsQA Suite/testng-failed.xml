@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Testing ToolsQA Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Links Page Test(failed)">
+    <classes>
+      <class name="testcases.TC6_Links_Page">
+        <methods>
+          <include name="testing_links_links_moved_link"/>
+          <include name="opening_RadioButton_page"/>
+          <include name="refresh_page"/>
+          <include name="testing_links_links_unauthorized_link"/>
+          <include name="testing_links_badRequest_link"/>
+          <include name="setUp"/>
+          <include name="testing_created_link"/>
+          <include name="testing_links_forbidden_link"/>
+          <include name="testing_links_noContent_link"/>
+          <include name="testing_links_links_invalidUrl_link"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC6_Links_Page -->
+    </classes>
+  </test> <!-- Links Page Test(failed) -->
+</suite> <!-- Failed suite [Testing ToolsQA Suite] -->

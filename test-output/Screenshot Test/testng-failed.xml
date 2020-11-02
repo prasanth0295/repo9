@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Screenshot Test]">
+  <listeners>
+    <listener class-name="listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="First Test(failed)">
+    <classes>
+      <class name="maven2.TestingScreenshot">
+        <methods>
+          <include name="testing_userEmailTextBox_and_entertingText"/>
+          <include name="testing_userCurrentAddressTextBox_and_entertingText"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- maven2.TestingScreenshot -->
+    </classes>
+  </test> <!-- First Test(failed) -->
+</suite> <!-- Failed suite [Screenshot Test] -->

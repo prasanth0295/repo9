@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Rough Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListener"/>
+  </listeners>
+  <test thread-count="5" name="Rough Test(failed)">
+    <classes>
+      <class name="testcases.TC6_Links_Page">
+        <methods>
+          <include name="opening_RadioButton_page"/>
+          <include name="refresh_page"/>
+          <include name="setUp"/>
+          <include name="testing_created_link"/>
+          <include name="testing_links_noContent_link"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC6_Links_Page -->
+    </classes>
+  </test> <!-- Rough Test(failed) -->
+</suite> <!-- Failed suite [Rough Suite] -->

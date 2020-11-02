@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.TC5_Buttons_Page">
+        <methods>
+          <include name="testing_left_click_button"/>
+          <include name="testing_right_click_button"/>
+          <include name="setUp"/>
+          <include name="refreshing_page"/>
+          <include name="opening_page"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC5_Buttons_Page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="19" passed="19">
+  <reporter-output>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+    <line>
+      <![CDATA[Evidance of the Test]]>
+    </line>
+    <line>
+      <![CDATA[<hr>]]>
+    </line>
+    <line>
+      <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+    </line>
+  </reporter-output>
+  <suite name="Testing ToolsQA Suite" duration-ms="14950" started-at="2020-10-23T04:46:48Z" finished-at="2020-10-23T04:47:03Z">
+    <groups>
+    </groups>
+    <test name="Text Box Test" duration-ms="7402" started-at="2020-10-23T04:46:48Z" finished-at="2020-10-23T04:46:55Z">
+      <class name="testcases.TC1_TextBox_Page">
+        <test-method status="PASS" signature="opening_TextBox_Page()[pri:0, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="opening_TextBox_Page" is-config="true" duration-ms="2336" started-at="2020-10-23T10:16:48Z" finished-at="2020-10-23T10:16:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opening_TextBox_Page -->
+        <test-method status="PASS" signature="testing_userName_shadow_enteringText()[pri:1, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_userName_shadow_enteringText" duration-ms="147" started-at="2020-10-23T10:16:50Z" finished-at="2020-10-23T10:16:50Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_userName_shadow_enteringText -->
+        <test-method status="PASS" signature="testing_userEmail_shadow_entering_Valid_Text()[pri:2, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_userEmail_shadow_entering_Valid_Text" duration-ms="159" started-at="2020-10-23T10:16:51Z" finished-at="2020-10-23T10:16:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_userEmail_shadow_entering_Valid_Text -->
+        <test-method status="PASS" signature="testing_currentAddress_shadow_enteringText()[pri:3, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_currentAddress_shadow_enteringText" duration-ms="148" started-at="2020-10-23T10:16:51Z" finished-at="2020-10-23T10:16:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_currentAddress_shadow_enteringText -->
+        <test-method status="PASS" signature="testing_permanenAddress_shadow_enteringText()[pri:4, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_permanenAddress_shadow_enteringText" duration-ms="110" started-at="2020-10-23T10:16:52Z" finished-at="2020-10-23T10:16:52Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_permanenAddress_shadow_enteringText -->
+        <test-method status="PASS" signature="testing_submit_button_with_ValidData()[pri:5, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_submit_button_with_ValidData" duration-ms="1005" started-at="2020-10-23T10:16:52Z" finished-at="2020-10-23T10:16:53Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_submit_button_with_ValidData -->
+        <test-method status="PASS" signature="testing_form_by_entering_Invalid_Email()[pri:6, instance:testcases.TC1_TextBox_Page@56cbfb61]" name="testing_form_by_entering_Invalid_Email" duration-ms="1106" started-at="2020-10-23T10:16:54Z" finished-at="2020-10-23T10:16:55Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_form_by_entering_Invalid_Email -->
+      </class> <!-- testcases.TC1_TextBox_Page -->
+    </test> <!-- Text Box Test -->
+    <test name="Check Box Test" duration-ms="5040" started-at="2020-10-23T04:46:56Z" finished-at="2020-10-23T04:47:01Z">
+      <class name="testcases.TC2_CheckBox_Page">
+        <test-method status="PASS" signature="opening_CheckBox_Page()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="opening_CheckBox_Page" is-config="true" duration-ms="612" started-at="2020-10-23T10:16:56Z" finished-at="2020-10-23T10:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opening_CheckBox_Page -->
+        <test-method status="PASS" signature="testing_Unexanded_Expansion()[pri:7, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_Unexanded_Expansion" duration-ms="28" started-at="2020-10-23T10:16:56Z" finished-at="2020-10-23T10:16:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_Unexanded_Expansion -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:56Z" finished-at="2020-10-23T10:16:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:57Z" finished-at="2020-10-23T10:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_ExpandAll_Button()[pri:8, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_ExpandAll_Button" duration-ms="112" started-at="2020-10-23T10:16:57Z" finished-at="2020-10-23T10:16:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_ExpandAll_Button -->
+        <test-method status="PASS" signature="testing_CollapseAll_Button()[pri:9, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_CollapseAll_Button" duration-ms="76" started-at="2020-10-23T10:16:57Z" finished-at="2020-10-23T10:16:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_CollapseAll_Button -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:57Z" finished-at="2020-10-23T10:16:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_desktop_checkBox_text_by_Checking()[pri:10, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_desktop_checkBox_text_by_Checking" duration-ms="162" started-at="2020-10-23T10:16:58Z" finished-at="2020-10-23T10:16:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_desktop_checkBox_text_by_Checking -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:58Z" finished-at="2020-10-23T10:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="1" started-at="2020-10-23T10:16:58Z" finished-at="2020-10-23T10:16:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_desktop_checkBox_text_by_UnChecking()[pri:11, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_desktop_checkBox_text_by_UnChecking" duration-ms="58" started-at="2020-10-23T10:16:58Z" finished-at="2020-10-23T10:16:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_desktop_checkBox_text_by_UnChecking -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:59Z" finished-at="2020-10-23T10:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_documents_checkBox_text_by_Checking()[pri:12, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_documents_checkBox_text_by_Checking" duration-ms="236" started-at="2020-10-23T10:16:59Z" finished-at="2020-10-23T10:16:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_documents_checkBox_text_by_Checking -->
+        <test-method status="PASS" signature="testing_documents_checkBox_text_by_UnChecking()[pri:13, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_documents_checkBox_text_by_UnChecking" duration-ms="60" started-at="2020-10-23T10:16:59Z" finished-at="2020-10-23T10:16:59Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_documents_checkBox_text_by_UnChecking -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:16:59Z" finished-at="2020-10-23T10:16:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_downloads_checkBox_text_by_Checking()[pri:14, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_downloads_checkBox_text_by_Checking" duration-ms="146" started-at="2020-10-23T10:17:00Z" finished-at="2020-10-23T10:17:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_downloads_checkBox_text_by_Checking -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:17:00Z" finished-at="2020-10-23T10:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method status="PASS" signature="testing_downloads_checkBox_text_by_UnChecking()[pri:15, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="testing_downloads_checkBox_text_by_UnChecking" duration-ms="60" started-at="2020-10-23T10:17:00Z" finished-at="2020-10-23T10:17:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_downloads_checkBox_text_by_UnChecking -->
+        <test-method status="PASS" signature="settingUp()[pri:0, instance:testcases.TC2_CheckBox_Page@30c7da1e]" name="settingUp" is-config="true" duration-ms="0" started-at="2020-10-23T10:17:00Z" finished-at="2020-10-23T10:17:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+      </class> <!-- testcases.TC2_CheckBox_Page -->
+    </test> <!-- Check Box Test -->
+    <test name="Radio Button Test" duration-ms="2231" started-at="2020-10-23T04:47:01Z" finished-at="2020-10-23T04:47:03Z">
+      <class name="testcases.TC3_RadioButton_Page">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="setUp" is-config="true" duration-ms="6623" started-at="2020-10-23T10:16:41Z" finished-at="2020-10-23T10:16:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="opening_RadioButton_page()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="opening_RadioButton_page" is-config="true" duration-ms="587" started-at="2020-10-23T10:17:01Z" finished-at="2020-10-23T10:17:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- opening_RadioButton_page -->
+        <test-method status="PASS" signature="testingHeader_radiobutton_text()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="testingHeader_radiobutton_text" duration-ms="29" started-at="2020-10-23T10:17:01Z" finished-at="2020-10-23T10:17:01Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testingHeader_radiobutton_text -->
+        <test-method status="PASS" signature="testing_Impressive_radio_button()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="testing_Impressive_radio_button" duration-ms="49" started-at="2020-10-23T10:17:02Z" finished-at="2020-10-23T10:17:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_Impressive_radio_button -->
+        <test-method status="PASS" signature="testing_No_radio_button()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="testing_No_radio_button" duration-ms="37" started-at="2020-10-23T10:17:02Z" finished-at="2020-10-23T10:17:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_No_radio_button -->
+        <test-method status="PASS" signature="testing_Yes_radio_button()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="testing_Yes_radio_button" duration-ms="46" started-at="2020-10-23T10:17:02Z" finished-at="2020-10-23T10:17:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Evidance of the Test]]>
+            </line>
+            <line>
+              <![CDATA[<hr>]]>
+            </line>
+            <line>
+              <![CDATA[<a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testing_Yes_radio_button -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC3_RadioButton_Page@59a6e353]" name="tearDown" is-config="true" duration-ms="1338" started-at="2020-10-23T10:17:03Z" finished-at="2020-10-23T10:17:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC3_RadioButton_Page -->
+    </test> <!-- Radio Button Test -->
+  </suite> <!-- Testing ToolsQA Suite -->
+</testng-results>
