@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing ToolsQA Suite">
+	<listeners>
+		<listener class-name="listeners.CustomListener" />
+	</listeners>
+
+	<test name="Text Box Test">
+		<classes>
+			<class name="testcases.TC1_TextBox_Page" />
+		</classes>
+	</test><!-- Text Box Test -->
+
+
+	<test name="Check Box Test">
+		<classes>
+			<class name="testcases.TC2_CheckBox_Page" />
+		</classes>
+	</test> <!-- Check Box Test -->
+	
+	<test name="Radio Button Test">
+		<classes>
+			<class name="testcases.TC3_RadioButton_Page" />
+		</classes>
+	</test> <!-- Radio Button Test -->
+
+	<test name="Buttons Page Test">
+		<classes>
+			<class name="testcases.TC5_Buttons_Page" />
+		</classes>
+	</test> <!-- Buttons Page Test -->
+
+	<test name="Links Page Test">
+		<classes>
+			<class name="testcases.TC6_Links_Page" />
+		</classes>
+	</test> <!-- Links Page Test -->
+
+
+</suite> <!-- Testing ToolsQA Suite -->
