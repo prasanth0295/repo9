@@ -30,11 +30,6 @@
 		</classes>
 	</test> <!-- Buttons Page Test -->
 
-	<test name="Links Page Test">
-		<classes>
-			<class name="testcases.TC6_Links_Page" />
-		</classes>
-	</test> <!-- Links Page Test -->
 
 
 </suite> <!-- Testing ToolsQA Suite -->

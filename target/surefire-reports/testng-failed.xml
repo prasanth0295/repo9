@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Testing ToolsQA Suite]">
+  <listeners>
+    <listener class-name="listeners.CustomListener"/>
+  </listeners>
+  <test name="Text Box Test(failed)">
+    <classes>
+      <class name="testcases.TC1_TextBox_Page">
+        <methods>
+          <include name="testing_submit_button_with_ValidData"/>
+          <include name="opening_TextBox_Page"/>
+          <include name="setUp"/>
+          <include name="testing_form_by_entering_Invalid_Email"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- testcases.TC1_TextBox_Page -->
+    </classes>
+  </test> <!-- Text Box Test(failed) -->
+  <test name="Check Box Test(failed)">
+    <classes>
+      <class name="testcases.TC2_CheckBox_Page">
+        <methods>
+          <include name="testing_downloads_checkBox_text_by_UnChecking"/>
+          <include name="testing_downloads_checkBox_text_by_Checking"/>
+          <include name="settingUp"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="opening_CheckBox_Page"/>
+        </methods>
+      </class> <!-- testcases.TC2_CheckBox_Page -->
+    </classes>
+  </test> <!-- Check Box Test(failed) -->
+</suite> <!-- Failed suite [Testing ToolsQA Suite] -->

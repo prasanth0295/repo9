@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 4 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Testing_ToolsQA_Suite">
-              <span class="suite-name border-passed">Testing ToolsQA Suite</span>
+              <span class="suite-name border-failed">Testing ToolsQA Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -54,7 +54,7 @@
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Testing_ToolsQA_Suite">
-                    <span class="test-stats">3 tests</span>
+                    <span class="test-stats">4 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,36 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">19 methods,   19 passed</span>
+                    <span class="method-stats">22 methods, 4 failed,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Testing_ToolsQA_Suite" class="hide-methods failed suite-Testing_ToolsQA_Suite"> (hide)</a> <!-- hide-methods failed suite-Testing_ToolsQA_Suite -->
+                      <a href="#" panel-name="suite-Testing_ToolsQA_Suite" class="show-methods failed suite-Testing_ToolsQA_Suite"> (show)</a> <!-- show-methods failed suite-Testing_ToolsQA_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Testing_ToolsQA_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_downloads_checkBox_text_by_Checking">testing_downloads_checkBox_text_by_Checking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_downloads_checkBox_text_by_UnChecking">testing_downloads_checkBox_text_by_UnChecking</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC1_TextBox_Page" hash-for-method="testing_form_by_entering_Invalid_Email">testing_form_by_entering_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC1_TextBox_Page" hash-for-method="testing_submit_button_with_ValidData">testing_submit_button_with_ValidData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Testing_ToolsQA_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +129,6 @@
                       <a href="#" panel-name="suite-Testing_ToolsQA_Suite" class="show-methods passed suite-Testing_ToolsQA_Suite"> (show)</a> <!-- show-methods passed suite-Testing_ToolsQA_Suite -->
                     </span>
                     <div class="method-list-content passed suite-Testing_ToolsQA_Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC3_RadioButton_Page" hash-for-method="testingHeader_radiobutton_text">testingHeader_radiobutton_text</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_CollapseAll_Button">testing_CollapseAll_Button</a> <!-- method navigator-link -->
@@ -127,7 +151,7 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_Unexanded_Expansion">testing_Unexanded_Expansion</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_Unexpanded_Expansion">testing_Unexpanded_Expansion</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -162,17 +186,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_downloads_checkBox_text_by_Checking">testing_downloads_checkBox_text_by_Checking</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC5_Buttons_Page" hash-for-method="testing_double_click_button">testing_double_click_button</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC2_CheckBox_Page" hash-for-method="testing_downloads_checkBox_text_by_UnChecking">testing_downloads_checkBox_text_by_UnChecking</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC1_TextBox_Page" hash-for-method="testing_form_by_entering_Invalid_Email">testing_form_by_entering_Invalid_Email</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC5_Buttons_Page" hash-for-method="testing_left_click_button">testing_left_click_button</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -182,7 +201,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC1_TextBox_Page" hash-for-method="testing_submit_button_with_ValidData">testing_submit_button_with_ValidData</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC5_Buttons_Page" hash-for-method="testing_right_click_button">testing_right_click_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Testing_ToolsQA_Suite" title="testcases.TC3_RadioButton_Page" hash-for-method="testing_status_of_radiobuttons">testing_status_of_radiobuttons</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -207,31 +231,99 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Testing_ToolsQA_Suite" class="panel Testing_ToolsQA_Suite">
-          <div class="suite-Testing_ToolsQA_Suite-class-passed">
+          <div class="suite-Testing_ToolsQA_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
+              <span class="class-name">testcases.TC2_CheckBox_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_downloads_checkBox_text_by_Checking">
+                  </a> <!-- testing_downloads_checkBox_text_by_Checking -->
+                  <span class="method-name">testing_downloads_checkBox_text_by_Checking</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;rct-title&quot;&gt;...&lt;/span&gt; is not clickable at point (461, 637). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURYA&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a91f03c5aa6a25908e4f4ccaefcc847e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at testcases.TC2_CheckBox_Page.testing_downloads_checkBox_text_by_Checking(TC2_CheckBox_Page.java:125)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_downloads_checkBox_text_by_UnChecking">
+                  </a> <!-- testing_downloads_checkBox_text_by_UnChecking -->
+                  <span class="method-name">testing_downloads_checkBox_text_by_UnChecking</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;span class=&quot;rct-title&quot;&gt;...&lt;/span&gt; is not clickable at point (461, 637). Other element would receive the click: &lt;span&gt;...&lt;/span&gt;
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURYA&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a91f03c5aa6a25908e4f4ccaefcc847e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at testcases.TC2_CheckBox_Page.testing_downloads_checkBox_text_by_UnChecking(TC2_CheckBox_Page.java:141)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_ToolsQA_Suite-class-failed -->
+          <div class="suite-Testing_ToolsQA_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">testcases.TC1_TextBox_Page</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testing_currentAddress_shadow_enteringText">
-                  </a> <!-- testing_currentAddress_shadow_enteringText -->
-                  <span class="method-name">testing_currentAddress_shadow_enteringText</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="testing_form_by_entering_Invalid_Email">
                   </a> <!-- testing_form_by_entering_Invalid_Email -->
                   <span class="method-name">testing_form_by_entering_Invalid_Email</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_permanenAddress_shadow_enteringText">
-                  </a> <!-- testing_permanenAddress_shadow_enteringText -->
-                  <span class="method-name">testing_permanenAddress_shadow_enteringText</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (720, 636). Other element would receive the click: &lt;footer&gt;...&lt;/footer&gt;
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURYA&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a91f03c5aa6a25908e4f4ccaefcc847e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at testcases.TC1_TextBox_Page.testing_form_by_entering_Invalid_Email(TC1_TextBox_Page.java:38)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -239,60 +331,30 @@
                   <a name="testing_submit_button_with_ValidData">
                   </a> <!-- testing_submit_button_with_ValidData -->
                   <span class="method-name">testing_submit_button_with_ValidData</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_userEmail_shadow_entering_Valid_Text">
-                  </a> <!-- testing_userEmail_shadow_entering_Valid_Text -->
-                  <span class="method-name">testing_userEmail_shadow_entering_Valid_Text</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_userName_shadow_enteringText">
-                  </a> <!-- testing_userName_shadow_enteringText -->
-                  <span class="method-name">testing_userName_shadow_enteringText</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testing_ToolsQA_Suite-class-passed -->
-          <div class="suite-Testing_ToolsQA_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.TC3_RadioButton_Page</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="testingHeader_radiobutton_text">
-                  </a> <!-- testingHeader_radiobutton_text -->
-                  <span class="method-name">testingHeader_radiobutton_text</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_Impressive_radio_button">
-                  </a> <!-- testing_Impressive_radio_button -->
-                  <span class="method-name">testing_Impressive_radio_button</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_No_radio_button">
-                  </a> <!-- testing_No_radio_button -->
-                  <span class="method-name">testing_No_radio_button</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="testing_Yes_radio_button">
-                  </a> <!-- testing_Yes_radio_button -->
-                  <span class="method-name">testing_Yes_radio_button</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;button id=&quot;submit&quot; type=&quot;button&quot; class=&quot;btn btn-primary&quot;&gt;...&lt;/button&gt; is not clickable at point (720, 636). Other element would receive the click: &lt;footer&gt;...&lt;/footer&gt;
+  (Session info: chrome=86.0.4240.111)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;SURYA&apos;, ip: &apos;192.168.0.7&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_161&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 86.0.4240.111, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, goog:chromeOptions: {debuggerAddress: localhost:62642}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a91f03c5aa6a25908e4f4ccaefcc847e
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at testcases.TC1_TextBox_Page.testing_submit_button_with_ValidData(TC1_TextBox_Page.java:76)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Testing_ToolsQA_Suite-class-passed -->
+          </div> <!-- suite-Testing_ToolsQA_Suite-class-failed -->
           <div class="suite-Testing_ToolsQA_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -315,9 +377,9 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testing_Unexanded_Expansion">
-                  </a> <!-- testing_Unexanded_Expansion -->
-                  <span class="method-name">testing_Unexanded_Expansion</span>
+                  <a name="testing_Unexpanded_Expansion">
+                  </a> <!-- testing_Unexpanded_Expansion -->
+                  <span class="method-name">testing_Unexpanded_Expansion</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -348,18 +410,105 @@
                   <span class="method-name">testing_documents_checkBox_text_by_UnChecking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_ToolsQA_Suite-class-passed -->
+          <div class="suite-Testing_ToolsQA_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC1_TextBox_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="testing_downloads_checkBox_text_by_Checking">
-                  </a> <!-- testing_downloads_checkBox_text_by_Checking -->
-                  <span class="method-name">testing_downloads_checkBox_text_by_Checking</span>
+                  <a name="testing_currentAddress_shadow_enteringText">
+                  </a> <!-- testing_currentAddress_shadow_enteringText -->
+                  <span class="method-name">testing_currentAddress_shadow_enteringText</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="testing_downloads_checkBox_text_by_UnChecking">
-                  </a> <!-- testing_downloads_checkBox_text_by_UnChecking -->
-                  <span class="method-name">testing_downloads_checkBox_text_by_UnChecking</span>
+                  <a name="testing_permanenAddress_shadow_enteringText">
+                  </a> <!-- testing_permanenAddress_shadow_enteringText -->
+                  <span class="method-name">testing_permanenAddress_shadow_enteringText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_userEmail_shadow_entering_Valid_Text">
+                  </a> <!-- testing_userEmail_shadow_entering_Valid_Text -->
+                  <span class="method-name">testing_userEmail_shadow_entering_Valid_Text</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_userName_shadow_enteringText">
+                  </a> <!-- testing_userName_shadow_enteringText -->
+                  <span class="method-name">testing_userName_shadow_enteringText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_ToolsQA_Suite-class-passed -->
+          <div class="suite-Testing_ToolsQA_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC5_Buttons_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_double_click_button">
+                  </a> <!-- testing_double_click_button -->
+                  <span class="method-name">testing_double_click_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_left_click_button">
+                  </a> <!-- testing_left_click_button -->
+                  <span class="method-name">testing_left_click_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_right_click_button">
+                  </a> <!-- testing_right_click_button -->
+                  <span class="method-name">testing_right_click_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Testing_ToolsQA_Suite-class-passed -->
+          <div class="suite-Testing_ToolsQA_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.TC3_RadioButton_Page</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_Impressive_radio_button">
+                  </a> <!-- testing_Impressive_radio_button -->
+                  <span class="method-name">testing_Impressive_radio_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_No_radio_button">
+                  </a> <!-- testing_No_radio_button -->
+                  <span class="method-name">testing_No_radio_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_Yes_radio_button">
+                  </a> <!-- testing_Yes_radio_button -->
+                  <span class="method-name">testing_Yes_radio_button</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testing_status_of_radiobuttons">
+                  </a> <!-- testing_status_of_radiobuttons -->
+                  <span class="method-name">testing_status_of_radiobuttons</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -392,6 +541,11 @@
       &lt;class name=&quot;testcases.TC3_RadioButton_Page&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Radio Button Test --&gt;
+  &lt;test name=&quot;Buttons Page Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.TC5_Buttons_Page&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Buttons Page Test --&gt;
 &lt;/suite&gt; &lt;!-- Testing ToolsQA Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -410,6 +564,9 @@
               </li>
               <li>
                 <span class="test-name">Radio Button Test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Buttons Page Test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -435,88 +592,100 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(19);
+data.addRows(22);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'testing_form_by_entering_Invalid_Email')
+data.setCell(0, 1, 'testing_submit_button_with_ValidData')
 data.setCell(0, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(0, 3, 1106);
+data.setCell(0, 3, 2672);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'testing_submit_button_with_ValidData')
+data.setCell(1, 1, 'testing_form_by_entering_Invalid_Email')
 data.setCell(1, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(1, 3, 1005);
+data.setCell(1, 3, 2325);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testing_documents_checkBox_text_by_Checking')
+data.setCell(2, 1, 'testing_downloads_checkBox_text_by_Checking')
 data.setCell(2, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(2, 3, 236);
+data.setCell(2, 3, 1301);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'testing_desktop_checkBox_text_by_Checking')
+data.setCell(3, 1, 'testing_downloads_checkBox_text_by_UnChecking')
 data.setCell(3, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(3, 3, 162);
+data.setCell(3, 3, 1051);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'testing_userEmail_shadow_entering_Valid_Text')
-data.setCell(4, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(4, 3, 159);
+data.setCell(4, 1, 'testing_double_click_button')
+data.setCell(4, 2, 'testcases.TC5_Buttons_Page')
+data.setCell(4, 3, 895);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testing_currentAddress_shadow_enteringText')
-data.setCell(5, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(5, 3, 148);
+data.setCell(5, 1, 'testing_right_click_button')
+data.setCell(5, 2, 'testcases.TC5_Buttons_Page')
+data.setCell(5, 3, 692);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'testing_userName_shadow_enteringText')
+data.setCell(6, 1, 'testing_permanenAddress_shadow_enteringText')
 data.setCell(6, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(6, 3, 147);
+data.setCell(6, 3, 421);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'testing_downloads_checkBox_text_by_Checking')
-data.setCell(7, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(7, 3, 146);
+data.setCell(7, 1, 'testing_status_of_radiobuttons')
+data.setCell(7, 2, 'testcases.TC3_RadioButton_Page')
+data.setCell(7, 3, 386);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'testing_ExpandAll_Button')
-data.setCell(8, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(8, 3, 112);
+data.setCell(8, 1, 'testing_userName_shadow_enteringText')
+data.setCell(8, 2, 'testcases.TC1_TextBox_Page')
+data.setCell(8, 3, 380);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'testing_permanenAddress_shadow_enteringText')
-data.setCell(9, 2, 'testcases.TC1_TextBox_Page')
-data.setCell(9, 3, 110);
+data.setCell(9, 1, 'testing_documents_checkBox_text_by_Checking')
+data.setCell(9, 2, 'testcases.TC2_CheckBox_Page')
+data.setCell(9, 3, 347);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'testing_CollapseAll_Button')
-data.setCell(10, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(10, 3, 76);
+data.setCell(10, 1, 'testing_userEmail_shadow_entering_Valid_Text')
+data.setCell(10, 2, 'testcases.TC1_TextBox_Page')
+data.setCell(10, 3, 327);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'testing_downloads_checkBox_text_by_UnChecking')
+data.setCell(11, 1, 'testing_desktop_checkBox_text_by_Checking')
 data.setCell(11, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(11, 3, 60);
+data.setCell(11, 3, 322);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'testing_documents_checkBox_text_by_UnChecking')
-data.setCell(12, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(12, 3, 60);
+data.setCell(12, 1, 'testing_currentAddress_shadow_enteringText')
+data.setCell(12, 2, 'testcases.TC1_TextBox_Page')
+data.setCell(12, 3, 316);
 data.setCell(13, 0, 13)
-data.setCell(13, 1, 'testing_desktop_checkBox_text_by_UnChecking')
-data.setCell(13, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(13, 3, 58);
+data.setCell(13, 1, 'testing_Yes_radio_button')
+data.setCell(13, 2, 'testcases.TC3_RadioButton_Page')
+data.setCell(13, 3, 314);
 data.setCell(14, 0, 14)
-data.setCell(14, 1, 'testing_Impressive_radio_button')
-data.setCell(14, 2, 'testcases.TC3_RadioButton_Page')
-data.setCell(14, 3, 49);
+data.setCell(14, 1, 'testing_left_click_button')
+data.setCell(14, 2, 'testcases.TC5_Buttons_Page')
+data.setCell(14, 3, 303);
 data.setCell(15, 0, 15)
-data.setCell(15, 1, 'testing_Yes_radio_button')
+data.setCell(15, 1, 'testing_Impressive_radio_button')
 data.setCell(15, 2, 'testcases.TC3_RadioButton_Page')
-data.setCell(15, 3, 46);
+data.setCell(15, 3, 200);
 data.setCell(16, 0, 16)
-data.setCell(16, 1, 'testing_No_radio_button')
-data.setCell(16, 2, 'testcases.TC3_RadioButton_Page')
-data.setCell(16, 3, 37);
+data.setCell(16, 1, 'testing_ExpandAll_Button')
+data.setCell(16, 2, 'testcases.TC2_CheckBox_Page')
+data.setCell(16, 3, 180);
 data.setCell(17, 0, 17)
-data.setCell(17, 1, 'testingHeader_radiobutton_text')
+data.setCell(17, 1, 'testing_No_radio_button')
 data.setCell(17, 2, 'testcases.TC3_RadioButton_Page')
-data.setCell(17, 3, 29);
+data.setCell(17, 3, 114);
 data.setCell(18, 0, 18)
-data.setCell(18, 1, 'testing_Unexanded_Expansion')
+data.setCell(18, 1, 'testing_CollapseAll_Button')
 data.setCell(18, 2, 'testcases.TC2_CheckBox_Page')
-data.setCell(18, 3, 28);
+data.setCell(18, 3, 108);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testing_documents_checkBox_text_by_UnChecking')
+data.setCell(19, 2, 'testcases.TC2_CheckBox_Page')
+data.setCell(19, 3, 101);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testing_desktop_checkBox_text_by_UnChecking')
+data.setCell(20, 2, 'testcases.TC2_CheckBox_Page')
+data.setCell(20, 3, 92);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testing_Unexpanded_Expansion')
+data.setCell(21, 2, 'testcases.TC2_CheckBox_Page')
+data.setCell(21, 3, 25);
 window.suiteTableData['Testing_ToolsQA_Suite']= { tableData: data, tableDiv: 'times-div-Testing_ToolsQA_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
               <div id="times-div-Testing_ToolsQA_Suite">
               </div> <!-- times-div-Testing_ToolsQA_Suite -->
             </div> <!-- times-div -->
@@ -528,35 +697,19 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_userEmail_shadow_entering_Valid_Text</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
               <span class="reporter-method-name">testing_userName_shadow_enteringText</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_submit_button_with_ValidData</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_permanenAddress_shadow_enteringText</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_form_by_entering_Invalid_Email</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USERNAME_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -564,39 +717,39 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_CURRENTADDRESS_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_userEmail_shadow_entering_Valid_Text</span>
+              <span class="reporter-method-name">testing_permanenAddress_shadow_enteringText</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_USEREMAIL_SHADOW_ENTERING_VALID_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_PERMANENADDRESS_SHADOW_ENTERINGTEXT at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_downloads_checkBox_text_by_UnChecking</span>
+              <span class="reporter-method-name">testing_submit_button_with_ValidData</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_SUBMIT_BUTTON_WITH_VALIDDATA at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_CollapseAll_Button</span>
+              <span class="reporter-method-name">testing_form_by_entering_Invalid_Email</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_FORM_BY_ENTERING_INVALID_EMAIL at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_downloads_checkBox_text_by_Checking</span>
+              <span class="reporter-method-name">testing_Unexpanded_Expansion</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXPANDED_EXPANSION at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXPANDED_EXPANSION at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -604,23 +757,7 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_Unexanded_Expansion</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_UNEXANDED_EXPANSION at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_documents_checkBox_text_by_Checking</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_EXPANDALL_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -628,15 +765,7 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_documents_checkBox_text_by_UnChecking</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Evidance of the Test</span>
-                <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -644,31 +773,47 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DESKTOP_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_Yes_radio_button</span>
+              <span class="reporter-method-name">testing_documents_checkBox_text_by_UnChecking</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testingHeader_radiobutton_text</span>
+              <span class="reporter-method-name">testing_documents_checkBox_text_by_Checking</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTINGHEADER_RADIOBUTTON_TEXT at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOCUMENTS_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">testing_No_radio_button</span>
+              <span class="reporter-method-name">testing_CollapseAll_Button</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_COLLAPSEALL_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_downloads_checkBox_text_by_Checking</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_CHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_downloads_checkBox_text_by_UnChecking</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Fail Evidance of the method - TESTING_DOWNLOADS_CHECKBOX_TEXT_BY_UNCHECKING at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -676,7 +821,55 @@ return data;
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Evidance of the Test</span>
                 <span class="reporter-method-output"><hr></span>
-                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Fri_Oct_23_10_16_41_IST_2020.jpeg' height='200' width='400'/> </a></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_IMPRESSIVE_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_No_radio_button</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_NO_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_Yes_radio_button</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_YES_RADIO_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_status_of_radiobuttons</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_STATUS_OF_RADIOBUTTONS at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_STATUS_OF_RADIOBUTTONS at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_left_click_button</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_LEFT_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_LEFT_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_right_click_button</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_RIGHT_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_RIGHT_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testing_double_click_button</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Evidance of the Test</span>
+                <span class="reporter-method-output"><hr></span>
+                <span class="reporter-method-output"><a href='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOUBLE_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg'> <img src='G:\practiseSelenium\maven2\test-output\screenshots\Pass Evidance of the method - TESTING_DOUBLE_CLICK_BUTTON at Tue_Nov_03_11_12_06_IST_2020.jpeg' height='200' width='400'/> </a></span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -694,7 +887,7 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">testcases.TC3_RadioButton_Page</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">testcases.TC5_Buttons_Page</div> <!-- chronological-class-name -->
               <div class="configuration-suite before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
@@ -704,137 +897,192 @@ return data;
               <div class="chronological-class-name">testcases.TC1_TextBox_Page</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">opening_TextBox_Page</span>
-                <span class="method-start">6661 ms</span>
+                <span class="method-start">7193 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">testing_userName_shadow_enteringText</span>
-                <span class="method-start">9004 ms</span>
+                <span class="method-start">10312 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testing_userEmail_shadow_entering_Valid_Text</span>
-                <span class="method-start">9588 ms</span>
+                <span class="method-start">11097 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testing_currentAddress_shadow_enteringText</span>
-                <span class="method-start">10126 ms</span>
+                <span class="method-start">11799 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testing_permanenAddress_shadow_enteringText</span>
-                <span class="method-start">10653 ms</span>
+                <span class="method-start">12568 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testing_submit_button_with_ValidData</span>
-                <span class="method-start">11146 ms</span>
+                <span class="method-start">13336 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testing_form_by_entering_Invalid_Email</span>
-                <span class="method-start">12554 ms</span>
+                <span class="method-start">16359 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC2_CheckBox_Page</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">opening_CheckBox_Page</span>
-                <span class="method-start">14275 ms</span>
+                <span class="method-start">19022 ms</span>
               </div> <!-- configuration-class before -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">14887 ms</span>
+                <span class="method-start">19647 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">testing_Unexanded_Expansion</span>
-                <span class="method-start">14887 ms</span>
+                <span class="method-name">testing_Unexpanded_Expansion</span>
+                <span class="method-start">19647 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">15282 ms</span>
+                <span class="method-start">19990 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_ExpandAll_Button</span>
-                <span class="method-start">15282 ms</span>
+                <span class="method-start">19990 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">15810 ms</span>
+                <span class="method-start">20512 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_CollapseAll_Button</span>
-                <span class="method-start">15810 ms</span>
+                <span class="method-start">20512 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">16341 ms</span>
+                <span class="method-start">20937 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_desktop_checkBox_text_by_Checking</span>
-                <span class="method-start">16341 ms</span>
+                <span class="method-start">20937 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">16905 ms</span>
+                <span class="method-start">21571 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_desktop_checkBox_text_by_UnChecking</span>
-                <span class="method-start">16906 ms</span>
+                <span class="method-start">21572 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">17323 ms</span>
+                <span class="method-start">21993 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_documents_checkBox_text_by_Checking</span>
-                <span class="method-start">17323 ms</span>
+                <span class="method-start">21993 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">17917 ms</span>
+                <span class="method-start">22667 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">testing_documents_checkBox_text_by_UnChecking</span>
-                <span class="method-start">17917 ms</span>
+                <span class="method-start">22667 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">18343 ms</span>
+                <span class="method-start">23123 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testing_downloads_checkBox_text_by_Checking</span>
-                <span class="method-start">18343 ms</span>
+                <span class="method-start">23124 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method before">
                 <span class="method-name">settingUp</span>
-                <span class="method-start">18887 ms</span>
+                <span class="method-start">24770 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">testing_downloads_checkBox_text_by_UnChecking</span>
-                <span class="method-start">18887 ms</span>
+                <span class="method-start">24770 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.TC3_RadioButton_Page</div> <!-- chronological-class-name -->
               <div class="configuration-class before">
                 <span class="method-name">opening_RadioButton_page</span>
-                <span class="method-start">19342 ms</span>
+                <span class="method-start">26186 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
-                <span class="method-name">testingHeader_radiobutton_text</span>
-                <span class="method-start">19929 ms</span>
+                <span class="method-name">testing_status_of_radiobuttons</span>
+                <span class="method-start">27049 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testing_Impressive_radio_button</span>
-                <span class="method-start">20340 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testing_No_radio_button</span>
-                <span class="method-start">20741 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">27773 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="test-method">
                 <span class="method-name">testing_Yes_radio_button</span>
-                <span class="method-start">21167 ms</span>
+                <span class="method-start">28419 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">29065 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testing_Impressive_radio_button</span>
+                <span class="method-start">29838 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">30415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testing_No_radio_button</span>
+                <span class="method-start">31053 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">31509 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.TC5_Buttons_Page</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">opening_RadioButton_page</span>
+                <span class="method-start">32313 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">testing_left_click_button</span>
+                <span class="method-start">33165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">33766 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testing_right_click_button</span>
+                <span class="method-start">34545 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">35572 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">testing_double_click_button</span>
+                <span class="method-start">36388 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refresh_page</span>
+                <span class="method-start">37714 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-suite after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">21576 ms</span>
+                <span class="method-start">38558 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
