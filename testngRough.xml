@@ -6,13 +6,7 @@
 	</listeners>
 	<test name="Rough Test">
 		<classes>
-			<class name="testcases.TC6_Links_Page">
-				<methods>
-					<include name="testing_simpleLink_link" />
-					<include name="testing_created_link" />
-					<include name="testing_links_noContent_link" />
-				</methods>
-			</class>
+			<class name="testcases.TC22_Alerts_Page"></class>			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

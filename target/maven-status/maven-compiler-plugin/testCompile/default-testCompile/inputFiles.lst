@@ -1,7 +1,9 @@
 G:\practiseSelenium\maven2\src\test\java\testcases\TC2_CheckBox_Page.java
+G:\practiseSelenium\maven2\src\test\java\pom\POM22_Alerts.java
 G:\practiseSelenium\maven2\src\test\java\pom\POM4_WebTables.java
 G:\practiseSelenium\maven2\src\test\java\pom\POM11_PractiseForm.java
 G:\practiseSelenium\maven2\src\test\java\testcases\TC21_BrowserWindows_Page.java
+G:\practiseSelenium\maven2\src\test\java\testcases\TC22_Alerts_Page.java
 G:\practiseSelenium\maven2\src\test\java\testcases\TC1_TextBox_Page.java
 G:\practiseSelenium\maven2\src\test\java\listeners\CustomListener.java
 G:\practiseSelenium\maven2\src\test\java\pom\POM1_TextBox.java
@@ -18,4 +20,5 @@ G:\practiseSelenium\maven2\src\test\java\testcases\TC6_Links_Page.java
 G:\practiseSelenium\maven2\src\test\java\pom\POM3_RadioButton.java
 G:\practiseSelenium\maven2\src\test\java\pom\POM5_Buttons.java
 G:\practiseSelenium\maven2\src\test\java\utils\TestUtils.java
+G:\practiseSelenium\maven2\src\test\java\pom\POM23_Frames.java
 G:\practiseSelenium\maven2\src\test\java\testcases\TC5_Buttons_Page.java

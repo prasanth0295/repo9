@@ -6,16 +6,14 @@
   </listeners>
   <test thread-count="5" name="Rough Test(failed)">
     <classes>
-      <class name="testcases.TC6_Links_Page">
+      <class name="testcases.TC22_Alerts_Page">
         <methods>
-          <include name="opening_RadioButton_page"/>
-          <include name="refresh_page"/>
+          <include name="testing_prompt_button"/>
           <include name="setUp"/>
-          <include name="testing_created_link"/>
-          <include name="testing_links_noContent_link"/>
           <include name="tearDown"/>
+          <include name="opening_BrowserWindows_Page"/>
         </methods>
-      </class> <!-- testcases.TC6_Links_Page -->
+      </class> <!-- testcases.TC22_Alerts_Page -->
     </classes>
   </test> <!-- Rough Test(failed) -->
 </suite> <!-- Failed suite [Rough Suite] -->

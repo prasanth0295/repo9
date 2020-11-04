@@ -11,13 +11,12 @@
 		</classes>
 	</test><!-- Text Box Test -->
 
-
 	<test name="Check Box Test">
 		<classes>
 			<class name="testcases.TC2_CheckBox_Page" />
 		</classes>
 	</test> <!-- Check Box Test -->
-	
+
 	<test name="Radio Button Test">
 		<classes>
 			<class name="testcases.TC3_RadioButton_Page" />
@@ -29,6 +28,19 @@
 			<class name="testcases.TC5_Buttons_Page" />
 		</classes>
 	</test> <!-- Buttons Page Test -->
+
+	<test name="Browser Windows Page Test">
+		<classes>
+			<class name="testcases.TC21_BrowserWindows_Page" />
+		</classes>
+	</test> <!-- Browser Windows Page Test -->
+
+	<test name="Alerts Page Test">
+		<classes>
+			<class name="testcases.TC22_Alerts_Page" />
+		</classes>
+	</test> <!-- Alerts Page Test -->
+
 
 
 

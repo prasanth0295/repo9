@@ -1,7 +1,9 @@
 base\TestBase.class
 testcases\TC5_Buttons_Page.class
+pom\POM23_Frames.class
 testcases\TC3_RadioButton_Page.class
 listeners\CustomListener.class
+pom\POM22_Alerts.class
 testcases\TC11_PractiseForm_Page.class
 testcases\TC2_CheckBox_Page.class
 testcases\TC6_Links_Page.class
@@ -10,6 +12,7 @@ pom\POM4_WebTables.class
 pom\POM2_CheckBox.class
 pom\POM21_BrowserWindows.class
 pom\POM5_Buttons.class
+testcases\TC22_Alerts_Page.class
 pom\POM3_RadioButton.class
 rough\RoughFactory.class
 testcases\TC4_WebTables_Page.class

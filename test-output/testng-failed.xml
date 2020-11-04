@@ -4,23 +4,17 @@
   <listeners>
     <listener class-name="listeners.CustomListener"/>
   </listeners>
-  <test thread-count="5" name="Links Page Test(failed)">
+  <test thread-count="5" name="Browser Windows Page Test(failed)">
     <classes>
-      <class name="testcases.TC6_Links_Page">
+      <class name="testcases.TC21_BrowserWindows_Page">
         <methods>
-          <include name="testing_links_links_moved_link"/>
-          <include name="opening_RadioButton_page"/>
-          <include name="refresh_page"/>
-          <include name="testing_links_links_unauthorized_link"/>
-          <include name="testing_links_badRequest_link"/>
+          <include name="setting_Handles_set"/>
+          <include name="opening_BrowserWindows_Page"/>
+          <include name="testing_New_Window_with_Message_Button"/>
           <include name="setUp"/>
-          <include name="testing_created_link"/>
-          <include name="testing_links_forbidden_link"/>
-          <include name="testing_links_noContent_link"/>
-          <include name="testing_links_links_invalidUrl_link"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- testcases.TC6_Links_Page -->
+      </class> <!-- testcases.TC21_BrowserWindows_Page -->
     </classes>
-  </test> <!-- Links Page Test(failed) -->
+  </test> <!-- Browser Windows Page Test(failed) -->
 </suite> <!-- Failed suite [Testing ToolsQA Suite] -->
